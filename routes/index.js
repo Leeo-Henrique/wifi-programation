@@ -13,7 +13,7 @@ export function Routes() {
       <Stack.Navigator>
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="Schedule-Time" component={ScheduleTime} />
-        <Stack.Screen name="Set-Time" component={ScheduleTime} />
+        <Stack.Screen name="Set-Time" component={SetTime} />
       </Stack.Navigator>
     </NavigationContainer>
   );
